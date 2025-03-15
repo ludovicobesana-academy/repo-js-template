@@ -1,0 +1,16 @@
+name: Notify Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Notify Release
+        run: echo "🚀 New release detected: ${{ github.ref_name }}"

@@ -1,0 +1,19 @@
+{
+    "name": "repo-template",
+    "version": "1.0.0",
+    "description": "A template repository for projects",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "lint": "eslint . --fix",
+      "format": "prettier --write ."
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "eslint": "^9.22.0",
+      "prettier": "^3.0.0",
+      "husky": "^9.0.11",
+      "commitlint": "^18.0.0"
+    }
+  }
+  
