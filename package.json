@@ -1,5 +1,5 @@
 {
-    "name": "repo-template",
+    "name": "repo-js-template",
     "version": "1.0.0",
     "description": "A template repository for projects",
     "main": "src/index.js",
